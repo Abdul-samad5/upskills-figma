@@ -18,13 +18,18 @@ nav, .second{
     justify-content: space-around;
     margin: 15px;
 }
+.second .active{
+    font-weight: 700;
+    font-size: 20px;
+    
+    color: #065666;
+}
 nav ul li {
     list-style-type: none;
-    /* font-family: 'Manrope'; */
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
-color: #065666;
+color: #636363;
 }
 nav ul li img{
     margin-left: 70px;
@@ -34,6 +39,7 @@ height: 23px;
     list-style-type: none;
 }
 nav button{
+    color: #FFFFFF;
     padding: 24px 40px;
     width: 200px;
     height: 75px;
@@ -42,7 +48,6 @@ nav button{
 border-color: #6FC247;
 }
 .head, .para {
-    /* font-family: 'Manrope'; */
 font-style: normal;
 font-weight: 800;
 font-size: 64px;
@@ -61,6 +66,7 @@ font-size: 24px;
 div button{
    width: 250px;
     height: 75px;
+    color: #FFFFFF;
     border: 1.8px solid #6fc247;
     background: #6FC247;
     border-radius: 16px;
@@ -68,6 +74,7 @@ div button{
 div .btn{
     background-color: #FFFFFF;
     border: 1px solid #6fc247;
+    color: #6FC247;
 }
 .button{
     text-align: center;
@@ -102,8 +109,6 @@ height: 600px;
     padding: 70px 100px;
 }
 .fourth .why{
-    /* padding-top: 42px; */
-    /* margin-left: 100px; */
     width: 800px;
     margin-bottom: 90px;
 }
@@ -119,25 +124,18 @@ color: #D7D7D7;
 }
 .fourth .row div{
     width: 400px;
-    /* margin-left: 103px; */
 }
 .fourth .row{
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
 }
 .fourth .row h2{
-    /* font-weight: 800; */
 font-size: 24px;
 line-height: 33px;
-/* text-align: center; */
-/* margin-left: -70px; */
 color: #FFFFFF;
 }
 .fourth .row p{
-    /* font-weight: 500; */
 font-size: 20px;
-/* line-height: 150%; */
 color: #D7D7D7;
 }
 .fifth{
@@ -149,6 +147,52 @@ color: #D7D7D7;
     display: flex;
 }
 .fifth .container .img img{
-    width: 700px;
+    width: 600px;
 height: 806px;
+}
+.one h1{
+    font-size: 32px;
+text-align: center;
+font-weight: 800;
+color: #111111;
+}
+.one{
+    width: 480px;
+}
+.one p{
+    font-weight: 500;
+font-size: 20px;
+padding: 20px;
+margin-top: -10px;
+color: #111111;
+}
+.sector{
+    margin-top: 60px;
+}
+.sector .two{
+    margin-top: 56px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.sector .two h1{
+    font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+color: #111111;
+}
+.sector .two p{
+    font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+color: #000000;
+}
+.fifth button{
+    padding: 24px 40px;
+    width: 200px;
+    height: 75px;
+    color: #FFFFFF;
+    background: #6FC247;
+    border-radius: 16px;
+border-color: #6FC247;
+margin-left: 500px;
 }
